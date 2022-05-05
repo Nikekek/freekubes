@@ -1,0 +1,76 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+	max-width: 1140px;
+	width: calc(100% - 40px);
+	margin: 0 auto;
+}
+.top_line {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 150px;
+}
+header {
+	background: #b7ff90;
+}
+
+.header_nav {
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.header_nav a {
+	text-decoration: none;
+	color: inherit;
+}
+.header_nav ul {
+	display: flex;
+}
+.header_nav ul li {
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 30px;
+	line-height: 30px;
+	transition: background 300ms ease-in-out;
+	margin: 0 5px;
+}
+.header_nav ul li.active {
+	background: #8ab970;
+	border-radius: 5px;
+}
+.header_nav ul li:hover {
+	background: #8ab970;
+	border-radius: 5px;
+	transition: background 300ms ease-in-out;
+}
+.bottom_line {
+	text-align: center;
+	padding-top: 65px;
+	padding-bottom: 55px;
+}
+.bottom_line p {
+	font-size: 50px;
+	line-height: 20px;
+	color: #000000;
+	font-weight: 400;
+	margin-bottom: 80px;
+}
+.bottom_line ul {
+	color: #000000;
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+.contacti a {
+	text-decoration: none;
+	color: inherit;
+}
+.contacti a:hover {
+	color: #30bae7;
+}
