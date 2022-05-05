@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Магазин игрушек FREEKUBES</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+	<script type="text/javascript">
+	 
+	$(function() {
+	 
+		$(window).scroll(function() {
+		 
+		if($(this).scrollTop() != 0) {
+		 
+		$('#toTop').fadeIn();
+		 
+		} else {
+		 
+		$('#toTop').fadeOut();
+		 
+		}
+		 
+		});
+		 
+		$('#toTop').click(function() {
+		 
+		$('body,html').animate({scrollTop:0},800);
+		 
+		});
+	 
+	});
+	 
+	</script>
+	
+</head>
+<body>
+
+	<header>
+		<div class="wrapper">
+			<div class="top_line">
+				<a href="FREEKUBES.html" title="logo"><img src="images/logo.png" alt="logo"></a>
+
+				<nav class="header_nav">
+					<ul>
+						<li class="active"><a href="FREEKUBES.html">Главная</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="bottom_line">
+				<p>МАГАЗИН ДЕТСКИХ ИГРУШЕК!</p>
+				<ul class="flex">
+					<li class="items1"><img src="images/item1.png" alt="item1"><br><a href="item1.html">КУПИТЬ</a></li>
+					<li class="items2"><img src="images/item2.png" alt="item2"><br><a href="item2.html">КУПИТЬ</a></li>
+					<li class="items3"><img src="images/item3.png" alt="item3"><br><a href="item3.html">КУПИТЬ</a></li>
+					<li class="items4"><img src="images/item4.png" alt="item4"><br><a href="item4.html">КУПИТЬ</a></li>
+					<li class="items5"><img src="images/item5.png" alt="item5"><br><a href="item5.html">КУПИТЬ</a></li>
+					<li class="items6"><img src="images/item6.png" alt="item1"><br><a href="item6.html">КУПИТЬ</a></li>
+					<li class="items7"><img src="images/item7.png" alt="item2"><br><a href="item7.html">КУПИТЬ</a></li>
+					<li class="items8"><img src="images/item8.png" alt="item3"><br><a href="item8.html">КУПИТЬ</a></li>
+					<li class="items9"><img src="images/item9.png" alt="item4"><br><a href="item9.html">КУПИТЬ</a></li>
+					<li class="items10"><img src="images/item10.png" alt="item5"><br><a href="item10.html">КУПИТЬ</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<section class="whatis">
+		<div class="wrapper">
+			<h2>FREEKUBES ЭТО</h2>
+			<p class="description">Магазин детских игрушек, в котором вы можете купить<br> 
+			целых 10 товаров. Данный проект был разработан самыми<br>
+			умными людьми из высших учебных заведений. Не <br>
+			удивительно что теперь все люди знают или хоть раз<br>
+			слышали о сайте FreeKubes. В данном интернет магазине<br>
+			вы сможете найти целых 10 товаров со всего мира,<br>
+			которые пользуются большим спросом. Капитализация<br>
+			проекта более 2$. По вопросам сотрудничества пишите<br>
+			на почту указанную ниже!</p>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="wrapper">
+			<nav class="footer_social">
+				<ul>
+					<li><a href="https://vk.com/freekubes" target="_blank">вконтакте</a></li>
+					<li><a href="mailto:freekubes@gmail.com">freekubes@gmail.com</a></li>
+					<li><a href="https://www.youtube.com/channel/UC42YLaRjhDWnHyMXGfeMqxw" target="_blank">youtube</a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+
+	<div id="toTop">Наверх</div>
+
+</body>
+</html>
